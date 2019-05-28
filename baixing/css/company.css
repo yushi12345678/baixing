@@ -1,0 +1,42 @@
+.company_message{
+	width: 95%;
+	margin: auto;
+	padding-top: 2.5rem;
+	border: none;
+}
+.company_message li{
+	width: 100%;
+	margin-top: 1rem;
+	padding-top: 0.5rem;
+	border-top:0.05rem solid #aaa;
+}
+.company_message li span{
+	color: #FF5555;
+	font-weight: 800;
+}
+.company_message li p{
+	margin-top: 0.5rem;
+	font-size: 0.8rem;
+}
+.company_message li img{
+	height: 1rem;
+	width: 1rem;
+	margin-top: 0.2rem;
+}
+.bo{
+	height: 4rem;
+	width: 100%;
+	border:none;
+	margin-top: 3.5rem ;
+}
+.bo a{
+	display: block;
+	text-align: center;
+	margin: auto;
+	height: 2.5rem;
+	width: 6rem;
+	background: #FF5555;
+	color: #FFFFFF;
+	line-height: 2.5rem;
+	border-radius: 0.5rem;
+}

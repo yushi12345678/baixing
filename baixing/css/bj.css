@@ -1,0 +1,221 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.bi_1{
+	width:100%;
+	height: 100%;
+	
+}
+.bj_1 img{
+	height:20px;
+}
+.bj_2{
+	text-align: center;
+	line-height:150%;
+	width: 100%;
+	height:150%;
+	margin:auto;
+}
+.bj_2 a{
+	float: left;
+}
+.bj_3{
+	width:100%;
+	height: 200px;
+	border-top: 1px solid black;
+}
+.bj_3 img{
+	width:100%;
+	height:100%;
+}
+.bj_4{
+	width: 100%;
+	background: linear-gradient(to bottom, #DB9CC4,white); 
+}
+.bj_5{
+	width:100%;
+	height: 50%;
+	padding:4%;
+	font-size:180%;
+}
+.bj_6{
+	width:100%;
+	height: 50%;
+	padding-left:4%;
+	font-size:100%;
+}
+.bj_7{
+	width:100%;
+	height:50px; 
+	margin:4%;
+}
+.bj_7_1{
+	width:12.5%;
+	height: 100%;
+	float:left;
+	margin-right:12%;
+}
+.bj_7_1_image img{
+	width:100%;
+	height:80%;
+}
+.bj_7_1_font{
+	font-size:50%;
+	text-align: center;
+}
+.bj_7_1_font a{
+	color:#666566;
+}
+.bj_7_2{
+	width:12.5%;
+	height: 100%;
+	float:left;
+	margin-right:12%;
+}
+.bj_7_2_image img{
+	width:100%;
+	/*height:50%;*/
+}
+.bj_7_2_font{
+	font-size:50%;
+	text-align: center;
+}
+.bj_7_2_font a{
+	color:#666566;
+}
+.bj_8{
+	width:100%;
+	height:50px; 
+	margin-left:4%;
+	margin-right: 4%;
+}
+.bj_9{
+	width: 100%;
+	height: 15px;
+	background:#F1F1F1;
+}
+.bj_9_1{
+	width: 100%;
+	height: 15px;
+}
+.bj_9_1_1{
+	height: 5px;
+	margin-top:2.5px;
+	float: left;
+}
+.bj_9_1_2{
+	height: 20px;
+	margin-top:2.5px;
+	float: right;
+}
+
+.bj_10{
+	width: 100%;
+	height: 35px;
+	margin: 3%;
+}
+.bj_10_1{
+	width:10.5%;
+	height: 35PX;
+	float:left;
+	margin-right:9%;
+	text-align: center;
+/*	background: red;*/
+}
+.bj_10_1_image{
+	width: 100%;
+	height: 70%;
+}
+.bj_10_1_font{
+	font-size: 50%;
+}
+.tab-bars{
+	position: fixed;
+	z-index: 100;
+	bottom: 0px;
+	width:100%;
+	height:3.3rem;
+	background-color:white;
+	border-top:0.1rem solid #f1f1f1;
+
+}
+.tab-bars ul{
+	width:100%;
+	height:3rem;
+	margin: 0.5rem auto 0;
+	text-align: center;
+}
+.tab-bars ul li{
+	width:20%;
+	height:100%;
+	float:left;
+	list-style: none;
+}
+.tab-bars ul li img{
+	width:1.2rem;
+	height:1.2rem;
+}
+.tab-bars ul li p{
+	font-size:0.5rem;
+	margin-top:0.1rem;
+}
+.serve{
+	width: 95%;
+	margin: auto;
+	margin-top: 2.5rem;
+	border: none;
+}
+.serve ul{
+	height: 5rem;
+	width: 90%;
+	margin: auto;
+	margin-top:0.5rem;
+	border: none;
+}
+.serve ul li{
+	height: 100%;
+	float: left;
+	width: 23%;
+	border:none;
+}
+
+.serve ul li a img{
+	display: block;
+	height: 2.25rem;
+	width: 2.6rem;
+	margin: auto;
+}
+.serve ul li span{
+	display: block;
+	margin-top: 0.3rem;
+	font-size: 0.5rem;
+	text-align: center;
+}
+li{
+	list-style: none;
+}
+.title{
+	height: 5rem;
+	width: 100%;
+	margin: auto;
+	border: none;
+	background: url(../images/渐变.png);
+	background-size:contain;
+}
+
+.title h1{
+	margin-left: 8%;
+	color: #383534;
+}
+.title span
+{
+	display: block;
+	margin-left:8%;
+	margin-top: 0.3rem;
+	letter-spacing: 0.2rem;
+}

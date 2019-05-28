@@ -1,0 +1,84 @@
+*{
+	margin:0em;
+	padding:0em;
+}
+.yhtj{
+	width: 100%;
+	height: 100em;
+}
+.yhtj-1{
+	width: 100%;
+	height: 2em;
+	text-align: center;
+	line-height:2em;
+	width: 100%;
+	margin:auto;
+}
+.yhtj-1 img{
+	height:1.5em;
+	margin-top: 0.2em;
+}
+.yhtj-1 a{
+	float: left;
+}
+.yhtj-2{
+	width:100%;
+	margin:0.5em 0.5em;
+	height: 20em;
+}
+.yhtj-2 ul{
+	width: 20%;
+	margin:0% 0.3em;
+	text-align: center;
+	float: left;
+}
+.yhtj-2 ul li{
+	/*margin-top: 0.5em;*/
+	height: 3.5em;
+	line-height: 3.5em;
+
+	}
+.yhtj-2 img{
+	width: 80%;
+	height: 3em;
+}
+
+li{
+	list-style: none;
+}
+.yhtj-3{
+	color: #008DE1;
+}
+a{
+	text-decoration: none;
+}
+.tab-bars{
+	position: fixed;
+	z-index: 100;
+	bottom: 0px;
+	width:100%;
+	height:3.3rem;
+	background-color:white;
+	border-top:0.1rem solid #f1f1f1;
+
+}
+.tab-bars ul{
+	width:100%;
+	height:3rem;
+	margin: 0.5rem auto 0;
+	text-align: center;
+}
+.tab-bars ul li{
+	width:20%;
+	height:100%;
+	float:left;
+	list-style: none;
+}
+.tab-bars ul li img{
+	width:1.2rem;
+	height:1.2rem;
+}
+.tab-bars ul li p{
+	font-size:0.5rem;
+	margin-top:0.1rem;
+}

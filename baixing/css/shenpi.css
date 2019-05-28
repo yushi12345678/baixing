@@ -1,0 +1,63 @@
+.company{
+	width: 95%;
+	margin: auto;
+	padding-top: 2.5rem;
+	border: none;
+}
+.company_introduce{
+	height: 2rem;
+	width: 100%;
+	margin: auto;
+
+}
+.company_introduce li{
+	height: 100%;
+	float: left;
+	width:32%;
+}
+.company_introduce li span{
+	display: block;
+	line-height: 2rem;
+	text-align: center;
+}
+.introduce{
+	width: 100%;
+	float: left;
+	border: none;
+	margin-top: 1rem;
+}
+.introduce li{
+	height: 3.5rem;
+	width:32%;
+	float: left;
+	text-align: center;
+
+}
+.introduce img{
+	display: block;
+	height: 3.6rem;
+	width: 3.6rem;
+	padding-top: 0.2rem;
+	border-radius: 15%;
+	margin: auto;
+}
+.introduce li a{
+	
+	text-decoration: none;
+}
+.message p{
+	margin-top: 0.2rem;
+}
+.message a{
+	font-size: 0.8rem;
+	color: #008de1;
+}
+.pass a{
+	padding: 0.2rem 0.6rem;
+	display: inline-block;
+	margin-top: 0.3rem;
+	font-size: 0.8rem;
+	border-radius: 0.3rem;
+	color: #FFFFFF;
+	background:#008de1;
+}

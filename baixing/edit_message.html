@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>编辑资料</title>
+    <link rel="stylesheet" type="text/css" href="css/edit_message.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/edit_message/edit_message.js"></script>
+	<script type="text/javascript" src="js/edit_message/edit_message1.js"></script>
+</head>
+
+<body>
+<div class="all_page">
+	<div class="bm_2 header">
+			<a href="index.html"><img src="images/1.jpg"></a>
+			<h4>编辑资料</h4>
+	</div>
+	<p class="p_img">
+		<label for="test-upload1" style="width: 100%;height: 20%;" type="click" ><img src="images/11.jpg"  id="preview" style="width: 30%;height: 120px;" >
+		<input type="file" name="file" style="display: none;" onchange="img1(this)" id="test-upload1" multiple="multiple" value="点击修改图片" />
+	</p>
+
+	<div class="head">
+		<table class="table table-bordered table-hover">	
+				<tbody>
+					<tr>
+						<td style="font-weight: bold;">公司名称：</td>
+						<td><input type="text" class="form-control" placeholder="请输入公司名称" id="company"></td>
+					</tr>
+				</tbody>
+			</table>
+		<p class="head_p">公司简介:</p>
+		<div class="container">
+		  <form>
+		    <div class="form-group">
+		      <textarea class="form-control" rows="5" id="comment"></textarea>
+		    </div>
+		  </form>
+		</div>
+	</div>
+	<div class="zjzp" style="padding-bottom: 2rem;">
+		<p class="zjzp_p">服务项目:</p>
+		
+<div class="container">
+  	<form class="container_form">
+	    <div class="form-check form-check-inline">
+	      <label class="form-check-label">
+	        <input type="checkbox" class="form-check-input"  style="margin-right: 6px;" value="保洁" name="chkStudent" id="aaa"><a href="#">保洁</a>
+	      </label>
+	    </div>
+	    <div class="form-check form-check-inline">
+	      <label class="form-check-label">
+	        <input type="checkbox" class="form-check-input"  style="margin-right: 6px;" value="保姆" name="chkStudent"><a href="#">保姆</a>
+	      </label>
+	    </div>
+	    <div class="form-check form-check-inline">
+	      <label class="form-check-label">
+	        <input type="checkbox" class="form-check-input" style="margin-right: 6px;" value="母婴" name="chkStudent"><a href="#">母婴</a>
+	      </label>
+	    </div>
+	    <div class="form-check form-check-inline">
+	      <label class="form-check-label">
+	        <input type="checkbox" class="form-check-input" style="margin-right: 6px;" value="家电" name="chkStudent"><a href="#">家电</a>
+	      </label>
+	    </div>
+	    <div class="form-check form-check-inline">
+	      <label class="form-check-label">
+	        <input type="checkbox" class="form-check-input" style="margin-right: 6px;" value="家庭医护" name="chkStudent"><a href="#">家庭医护</a>
+	      </label>
+	    </div>
+	    <div class="form-check form-check-inline">
+	      <label class="form-check-label">
+	        <input type="checkbox" class="form-check-input" style="margin-right: 6px;" value="养老" name="chkStudent"><a href="#">养老</a>
+	      </label>
+	    </div>
+	    <div class="form-check form-check-inline">
+	      <label class="form-check-label">
+	        <input type="checkbox" class="form-check-input" style="margin-right: 6px;" value="技能培训  " name="chkStudent"><a href="#">技能培训</a>
+	      </label>
+	    </div>
+	     <div class="form-check form-check-inline" style="width:100%;">
+			    <form>
+			    <div class="input-group mb-3" style="width: 100%;">
+			      <input type="text" class="form-control" placeholder="请输入自定义类型">
+			    </div>  
+			  </form>
+		</div>
+		<table class="table table-bordered table-hover">
+			<p class="zjzp_p" style="padding:0px;">证件信息：</p>
+			<thead>
+				<tr>
+					<th style="width: 53%;">照片</th>
+					<th>证件名称</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><label for="test-upload2"><img src="images/11.jpg"  class="td_t"  style="width: 90%; "type="click" id="preview1">
+		            <input type="file" name="file"  id="test-upload2" multiple="multiple" value="点击修改图片"  onchange="img2(this)" style="display: none;" />
+					</label>
+					</td>
+					<td><!-- <input type="text" class="form-control" placeholder=""> -->营业执照</td>
+				</tr>
+				<tr>
+					<td><label for="test-upload3"><img src="images/11.jpg" class="td_t" id="preview2" style="width: 90%;"></label>
+					<td><input type="file" name="file" onchange="img3(this)" id="test-upload3" multiple="multiple" value="点击修改图片" style="display: none;" />营业证书</td>
+				</tr>
+				<tr>
+					<td><label for="test-upload4"><img src="images/11.jpg" class="td_t"  id="preview3" style="width: 90%;"></label>
+					<td>
+						<input type="file" name="file" onchange="img4(this)" id="test-upload4" multiple="multiple" value="点击修改图片" style="display: none;" />许可公司
+					</td>
+				</tr>
+				<tr>
+					<td><label for="test-upload5"><img id="preview4" src="images/11.jpg" class="td_t" id="lab-file" style="width: 90%;"></label>
+					<td><input type="file" name="file" onchange="img5(this)" id="test-upload5" multiple="multiple" value="点击修改图片" style="display: none;" />公司奖项</td>
+				</tr><!-- 
+				<tr>
+					<td><label for="test-upload6"><img src="images/11.jpg" class="td_t" id="lab-file" style="width: 90%;"></label>
+					<td><input type="file" name="file" onchange="img3(this)" id="test-upload5" multiple="multiple" value="点击修改图片" style="display: none;" /><input type="text" class="form-control" placeholder=""></td>
+				</tr> -->
+			</tbody>
+		</table>
+	</form>
+	<div class="center">
+		<table class="table table-bordered table-hover">	
+				<tbody>
+					<tr>
+						<td style="font-weight: bold;">地址</td>
+						<td><input type="text" class="form-control" placeholder="请输入地址" id="address"></td>
+					</tr>
+					<tr>
+						<td style="font-weight: bold;">联系方式</td>
+						<td><input type="text" class="form-control" placeholder="请输入联系方式" id="phone"></td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+
+	<button class=" btn-default btg"  type="submit" id="clk" onclick="submit()">提交</button>
+	<div class="kong">
+		
+	</div>
+	<div class="tab-bars">
+			<ul>
+				<li>
+					<a href="index.html"><img src="images/iconfont icon-shouye.png"></a>
+					<p>返回首页</p>
+				
+				<li>
+					<a href="landing.html"><img src="images/zhangdan.png"></a>
+					<p>商家登录</p>
+				
+				<li>
+					<a href="edit_message.html"><img src="images/shenqing.png"></a>
+					<p>申请入驻</p>
+				
+				<li>
+					<a href="kfzx.html"><img src="images/service.png"></a>
+					<p>客服中心</p>
+				
+				<li>
+					<a href="user.html"><img src="images/man.png"></a>
+					<p>个人中心</p>
+				
+			</ul>
+		</div>
+</div>
+</body>
+</html>

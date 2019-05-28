@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html{
+	height: 100%;
+/*background-image: url(../images/qqq.png);*/
+    background-repeat: no-repeat;
+    background-size: 185% 170%;
+    background-position-x: -10rem;
+    background-position-y: -5rem;
+}
+body{
+	background:#0f0;background-color:transparent;
+}
+.header{
+	position: fixed;
+	z-index: 20;
+	width:100%;
+	height:2.5rem;
+	background-color:white;
+	border-bottom: 1px solid #f4f4f4;
+}
+.header img{
+	width:1.5rem;
+	height:1.5rem;
+	position: absolute;
+	top:0;
+	z-index: 25;
+	margin-top: 0.5rem;
+	margin-left: 0.6rem;
+}
+.header h4{
+	width:30%;
+	z-index: 30;
+	margin-left:35%;
+	margin-top:0.5rem;
+	position: absolute;
+	text-align: center;
+}
+.all_page{
+	width: 100%;
+    
+}
+.head{
+	width: 100%;
+	height: 10rem;
+}
+.head_p{
+	width: 100%;
+    line-height: 6.06rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 3rem;
+}
+.center{
+	width: 100%;
+}
+.center_img{
+	width:6rem;
+    margin: auto;
+    display: block;
+}
+.center form{
+	width: 76%;
+	margin: auto;
+}
+.btn-default{
+	width: 64px;
+	background: #008de1;
+
+}
+.putting{
+	display: inline-block;
+	color:#FFF;
+}
+.kong{
+	width: 100%;
+	height: 3.2rem;
+}
+.tab-bars{
+	position: fixed;
+	z-index: 100;
+	bottom: 0px;
+	width:100%;
+	height:3.4rem;
+	background-color:white;
+	border-top:0.1rem solid #f1f1f1;
+	
+
+}
+.tab-bars ul{
+	width:100%;
+	height:3rem;
+	margin: 0.5rem auto 0;
+	text-align: center;
+}
+.tab-bars ul li{
+	width:20%;
+	height:100%;
+	float:left;
+	list-style: none;
+}
+.tab-bars ul li a{
+	display: block;
+	height:1.2rem;
+}
+.tab-bars ul li img{
+	width:1.2rem;
+	height:1.2rem;
+}
+.tab-bars ul li p{
+	font-size:0.6rem;
+	margin-top:0.35rem;
+	font-weight: 400;
+}
+.kong{
+	width: 100%;
+	height: 8rem;
+}

@@ -1,0 +1,53 @@
+.header{
+	position: fixed;
+	z-index: 20;
+	width:100%;
+	height:2.5rem;
+	background-color:white;
+	border-bottom: 1px solid #f4f4f4;
+}
+.header img{
+	width:1.5rem;
+	height:1.5rem;
+	position: absolute;
+	top:0;
+	z-index: 25;
+	margin-top: 0.5rem;
+	margin-left: 0.6rem;
+}
+.header h4{
+	width:36%;
+	z-index: 30;
+	margin-left:32%;
+	margin-top:0.5rem;
+	position: absolute;
+	text-align: center;
+	font-weight: 400;
+	border:none;
+}
+.main_box{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border: none;
+}
+.title{
+	height: 5rem;
+	width: 100%;
+	margin: auto;
+	border: none;
+	background: url(../images/bg.png);
+	background-size:contain;
+}
+
+.title h1{
+	margin-left: 8%;
+	color: #383534;
+}
+.title span
+{
+	display: block;
+	margin-left:8%;
+	margin-top: 0.3rem;
+	letter-spacing: 0.2rem;
+}
